@@ -4,7 +4,7 @@
 }
 
 #grad1 {
-    background-image: linear-gradient(to top, rgba(174, 75, 22, 0), rgba(0, 110, 255, 0.432));
+    background-image: linear-gradient(to top, rgba(174, 75, 22, 0), rgba(239, 123, 61, 0.958));
 
 }
 
@@ -13,8 +13,9 @@ main {
 }
 
 h1 {
-    padding-bottom: 20px;
-   color: rgb(207, 132, 18);
+    padding-top: 8px;
+    padding-bottom: 15px;
+    color: rgb(207, 132, 18);
     text-decoration: none;
 
 }
@@ -22,11 +23,9 @@ h1 {
 .navPrincipal {
     width: 100%;
     height: 80px;
-    background:#000;
-   
+    background: #000;
+
 }
-
-
 
 ul {
     list-style: none;
@@ -35,15 +34,15 @@ ul {
 .hamburguercostela-link {
     text-decoration: none;
     position: relative;
-    top: 268px;
-    left: 119px;
+    top: 401px;
+    right: 218px;
     text-align: center;
     padding: 5px;
 
 }
 
 .hamburguercostela-link a {
-       text-decoration: none;
+    text-decoration: none;
     font-style: oblique;
     font-weight: 600;
     color: rgb(10, 9, 9);
@@ -51,15 +50,15 @@ ul {
     font-style: oblique;
     font-weight: 600;
     padding: 5px;
-    
+
 
 }
 
 .hamburguergourmet-link {
 
     position: relative;
-    bottom: 90px;
-    right: 0;
+    bottom: 80px;
+    left: 100px;
     text-align: center;
     padding: 10px;
 
@@ -67,8 +66,8 @@ ul {
 
 .hamburguergourmet-link a {
     position: relative;
-    bottom: 25px;
-    left: 113px;
+    bottom: 22px;
+    right: 222px;
     text-decoration: none;
     color: rgb(10, 9, 9);
     background-color: antiquewhite;
@@ -77,38 +76,14 @@ ul {
     padding: 5px;
 
 }
-
-.conteiner {
-    width: 400px;
-    margin: auto;
-    position: relative;
-    color: rgb(172, 24, 117);
-    text-decoration: none;
-}
-
-.conteiner img {
-    width: 100%;
-    color: black;
-    text-decoration: none;
-}
-
-.baixoEsquerda {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-}
-
 .hamburguerfrango {
-   position: relative;
+    position: relative;
 }
 
 .hamburguerfrango-link a {
     position: relative;
-    bottom: 25px;
-    left: 105px;
+    bottom: 21px;
+    left:0;
     text-decoration: none;
     color: rgb(10, 9, 9);
     background-color: antiquewhite;
@@ -120,8 +95,44 @@ ul {
 
 .hamburguergourmet-link {
     top: 20px;
-    
+
 }
+
+.hamburguervegano-link a {
+    position: relative;
+    bottom: 21px;
+    left: 0;
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+    background-color: antiquewhite;
+    font-style: oblique;
+    font-weight: 600;
+    padding: 5px;
+   
+
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    color: rgb(172, 24, 117);
+    text-decoration: none;
+}
+
+.conteiner img {
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 button {
     background-color: plum;
