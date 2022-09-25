@@ -5,7 +5,8 @@ addEventListener('load', (event) => {
             'comida': "Hambúrguer de costela",
             'preco': 29.90,
             'ingredientes': "Pão australiano, Costelinha, Bacon, Queijo cheddar, Cebola caramelizada",
-            'vegano': false
+            'vegano': false,
+            'imagem':"image/hamburguer.jpg"
         }, {
             'comida': "Hambúrguer gourmet",
             'preco': 28.90,

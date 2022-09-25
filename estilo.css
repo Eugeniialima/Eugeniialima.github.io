@@ -3,18 +3,93 @@
     padding: 0;
 }
 
+#grad1 {
+    background-image: linear-gradient(to top, rgba(174, 75, 22, 0), rgba(0, 110, 255, 0.432));
+
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 20px;
+   color: rgb(207, 132, 18);
+    text-decoration: none;
+
+}
+
+.navPrincipal {
+    width: 100%;
+    height: 80px;
+    background:#000;
+   
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+.hamburguercostela-link {
+    text-decoration: none;
+    position: relative;
+    top: 268px;
+    left: 119px;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.hamburguercostela-link a {
+       text-decoration: none;
+    font-style: oblique;
+    font-weight: 600;
+    color: rgb(10, 9, 9);
+    background-color: antiquewhite;
+    font-style: oblique;
+    font-weight: 600;
+    padding: 5px;
+    
+
+}
+
+.hamburguergourmet-link {
+
+    position: relative;
+    bottom: 90px;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.hamburguergourmet-link a {
+    position: relative;
+    bottom: 25px;
+    left: 113px;
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+    background-color: antiquewhite;
+    font-style: oblique;
+    font-weight: 600;
+    padding: 5px;
+
+}
 
 .conteiner {
     width: 400px;
     margin: auto;
     position: relative;
-    color: rgb(255, 255, 255);
-    background: url()
+    color: rgb(172, 24, 117);
+    text-decoration: none;
 }
 
 .conteiner img {
     width: 100%;
-    background: url();
+    color: black;
+    text-decoration: none;
 }
 
 .baixoEsquerda {
@@ -26,54 +101,34 @@
     padding: 10px;
 }
 
-.topoEsquerda {
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+.hamburguerfrango {
+   position: relative;
+}
+
+.hamburguerfrango-link a {
+    position: relative;
+    bottom: 25px;
+    left: 105px;
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+    background-color: antiquewhite;
+    font-style: oblique;
+    font-weight: 600;
+    padding: 5px;
 
 }
 
-.topoDireita {
-    position: absolute;
-    top: 0;
-    right: 0;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-}
-
-.baixoDireita {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-}
-
-.centro {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-}
-
-.espaco-top {
-    margin-top: 20px;
-
+.hamburguergourmet-link {
+    top: 20px;
+    
 }
 
 button {
     background-color: plum;
     color: aliceblue;
     border-radius: 10px;
-    width: 50px;
-    height: 30px;
+    width: 38px;
+    height: 25px;
     position: relative;
 
 }
@@ -83,17 +138,25 @@ button:active {
 }
 
 .rodape {
-    position: fixed;
-    width: 100%;
+    background-color: rgb(2, 2, 2);
+    height: 60px;
     bottom: 0;
-    background-color: #FFC107;
-    padding: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+
+.rodape span {
+    color: rgb(207, 132, 18);
+    margin-left: 20px;
+    padding: 4px 4px 4px 4px;
 }
 
 .rodape a {
-    font-size: 14px;
-    color: white;
     text-decoration: none;
-    text-transform: uppercase;
+    color: rgb(207, 132, 18);
+    margin-right: 20px;
+    padding: 4px 4px 4px 4px;
 }
