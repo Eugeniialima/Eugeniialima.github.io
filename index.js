@@ -23,15 +23,23 @@ const menus = [
     }, {
         'comida': "Hambúrguer vegano",
         'preco': 26.90,
-        'ingredientes': "Pão brioche, Hambúrguer de falafel, Alface, Tomate, Cebola",
+        'ingredientes': "Pão brioche, Hambúrguer de falafel, Alface, Tomate, Cebola, pepino",
         'vegano': true,
         'imagem': "image/hamburguerVegano.png",
         'video': "https://www.receitasnestle.com.br/receitas/hamburguer-vegetariano-de-aveia-e-quinoa"
 
     }, {
+        'comida': "Hambúrguer cheddar",
+        'preco': 26.90,
+        'ingredientes': "Pão brioche, Hambúrguer de falafel, Alface, Tomate, Cebola roxa, queijo prato",
+        'vegano': true,
+        'imagem': "image/hamburguerbbq.png",
+        'video': "https://www.receitasnestle.com.br/receitas/hamburguer-vegetariano-de-aveia-e-quinoa"
+
+    }, {
         'comida': "Hambúrguer americano",
         'preco': 26.90,
-        'ingredientes': "Pão brioche, 2 smash burgers de 80g cada, cheddar, alface americana, picles de pepino e molho especial ",
+        'ingredientes': "Pão brioche, 2 smash burgers de 80g cada, cheddar, alface americana, picles ",
         'vegano': true,
         'imagem': "image/hamburguersmash.png",
         'video': "https://www.receitasnestle.com.br/receitas/hamburguer-vegetariano-de-aveia-e-quinoa"
