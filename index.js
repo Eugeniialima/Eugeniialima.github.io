@@ -2,7 +2,7 @@ const menus = [
     {
         'comida': "Hambúrguer de costela",
         'preco': 29.90,
-        'ingredientes': "Pão australiano, Costelinha, Bacon, Queijo cheddar, Cebola caramelizada",
+        'ingredientes': "Pão australiano, Costelinha, Bacon, Queijo cheddar, Cebola caramelizada, tomate",
         'vegano': false,
         'imagem': "image/hamburguer.jpg",
         'video': "https://receitas.globo.com/regionais/rpc/estudio-c/receita-de-hamburguer-de-costela-de-um-jeito-simples-de-fazer-g.ghtml"
@@ -30,7 +30,7 @@ const menus = [
 
     }, {
         'comida': "Hambúrguer cheddar",
-        'preco': 26.90,
+        'preco': 2.90,
         'ingredientes': "Pão brioche, Hambúrguer de falafel, Alface, Tomate, Cebola roxa, queijo prato",
         'vegano': true,
         'imagem': "image/cheddarburger2.jpg",
