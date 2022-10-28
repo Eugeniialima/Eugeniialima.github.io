@@ -1,61 +1,147 @@
-.conteiner {
-    width: 400px;
-    margin: auto;
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#grad1 {
+    background-image: linear-gradient(to top, rgba(174, 75, 22, 0), rgba(223, 92, 22, 0.958));
+    background-repeat: no-repeat;
+}
+
+main {
+    
+    padding-bottom: 20px;
+
+}
+
+h1 {
+
+    color: rgb(207, 132, 18);
+    text-decoration: none;
+
+}
+
+.navPrincipal {
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
     position: relative;
-    color: #fff
+
+
+}
+
+.showcase-nav{
+ align-self: center;
+ align-items: flex-end;
+    padding-right: 15px;
+}
+ul {
+    list-style: none;
+    border: 1px dashed black;
+}
+
+.hamburguer-link {
+    text-decoration: none;
+    position: relative;
+
+}
+
+a {
+    color: rgb(33, 110, 33);
+    text-decoration: none;
+    font-size: large;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    
+}
+
+.hamburguer-link a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+    background-color: antiquewhite;
+    font-style: oblique;
+    font-weight: 600;
+    padding: 5px;
+    padding-top: 0;
+
+}
+
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+    position: relative;
+    color: rgb(19, 7, 14);
+    text-decoration: none;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
 }
 
 .conteiner img {
     width: 100%;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
 }
 
-.baixoEsquerda {
-    position: absolute;
+
+button {
+    background-color: plum;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 38px;
+    height: 25px;
+    position: relative;
+
+}
+
+button:active {
+    background-color: red;
+}
+
+.rodape {
+    background-color: rgb(2, 2, 2);
+    height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
     bottom: 0;
+    align-items: center;
     left: 0;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-}
-
-.topoEsquerda {
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-
-}
-
-.topoDireita {
-    position: absolute;
-    top: 0;
     right: 0;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+
+
 }
 
-.baixoDireita {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+
+.rodape span {
+    color: rgb(207, 132, 18);
+    margin-left: 20px;
+
+
 }
 
-.centro {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-}
-
-.espaco-top {
-    margin-top: 20px;
+.rodape a {
+    text-decoration: none;
+    color: rgb(207, 132, 18);
+    margin-right: 20px;
 
 }
