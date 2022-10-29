@@ -12,6 +12,8 @@
 main {
     
     padding-bottom: 20px;
+   
+   
 
 }
 
@@ -20,6 +22,9 @@ h1 {
     color:#21A822;
     text-decoration: none;
 
+}
+.banner{
+    padding-bottom: 25px;
 }
 
 .navPrincipal {
@@ -52,9 +57,7 @@ ul {
 a {
     color: rgb(33, 110, 33);
     text-decoration: none;
-    font-size: large;
-    font-style: italic;
-    font-family: Arial, sans-serif;
+   
     
 }
 
@@ -67,7 +70,7 @@ a {
     background-color: antiquewhite;
     font-style: oblique;
     font-weight: 600;
-    padding: 5px;
+    padding: 4px;
     padding-top: 0;
 
 }
@@ -85,8 +88,8 @@ a {
     color: rgb(19, 7, 14);
     text-decoration: none;
     padding-bottom: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
 
 
 }
@@ -120,22 +123,23 @@ button:active {
 
 .rodape {
     background-color: rgb(2, 2, 2);
-    height: 60px;
-    position: fixed;
+    height: 80px;
+    position: relative;
     display: flex;
     justify-content: space-between;
     bottom: 0;
     align-items: center;
     left: 0;
     right: 0;
-
-
+    padding: 20px;
+  
 }
 
 
 .rodape span {
     color:#21A822;
     margin-left: 20px;
+    justify-self: flex-end;
 
 
 }

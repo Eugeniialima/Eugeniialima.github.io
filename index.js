@@ -2,7 +2,7 @@ const menus = [
     {
         'comida': "Hambúrguer de costela",
         'preco': 29.90,
-        'ingredientes': "Pão australiano, Costelinha, Bacon, Queijo cheddar, Cebola caramelizada, tomate",
+        'ingredientes': "Pão branco, Costelinha, Bacon, Queijo cheddar, Cebola caramelizada, tomate",
         'vegano': false,
         'imagem': "image/hamburguer.jpg",
         'video': "https://receitas.globo.com/regionais/rpc/estudio-c/receita-de-hamburguer-de-costela-de-um-jeito-simples-de-fazer-g.ghtml"
@@ -23,16 +23,16 @@ const menus = [
     }, {
         'comida': "Hambúrguer vegano",
         'preco': 26.90,
-        'ingredientes': "Pão brioche, Hambúrguer de falafel, Alface, Tomate, Cebola, pepino",
+        'ingredientes': "Pão, Hambúrguer de falafel, Alface, Tomate, Cebola, pepino",
         'vegano': true,
         'imagem': "image/hamburguerVegano.png",
         'video': "https://www.receitasnestle.com.br/receitas/hamburguer-vegetariano-de-aveia-e-quinoa"
 
     }, {
         'comida': "Hambúrguer cheddar",
-        'preco': 2.90,
-        'ingredientes': "Pão brioche, Hambúrguer de falafel, Alface, Tomate, Cebola roxa, queijo prato",
-        'vegano': true,
+        'preco': 27.90,
+        'ingredientes': "Pão brioche, Hambúrguer bovino (180g), Cebola roxa, queijo prato, bacon ",
+        'vegano': false,
         'imagem': "image/cheddarburger2.jpg",
         'video': "https://www.receitasnestle.com.br/receitas/hamburguer-vegetariano-de-aveia-e-quinoa"
 
@@ -40,7 +40,7 @@ const menus = [
         'comida': "Hambúrguer americano",
         'preco': 26.90,
         'ingredientes': "Pão brioche, 2 smash burgers de 80g cada, cheddar, alface americana, picles. ",
-        'vegano': true,
+        'vegano': false,
         'imagem': "image/hamburguersmash1.png",
         'video': "https://www.receitasnestle.com.br/receitas/hamburguer-vegetariano-de-aveia-e-quinoa"
 
